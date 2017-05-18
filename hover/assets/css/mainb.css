@@ -4,7 +4,7 @@ body {
 background-color: rgb(48, 66, 105);
 margin-left: 2.5%;
 color: rgb(217, 232, 245);
-background-image: url(../images/back10.jpg) ;
+background-image: url(../images/back11.jpg) ;
 background-size: 1300px 820px;
 background-attachment: fixed;
 }
@@ -34,41 +34,10 @@ background-attachment: fixed;
   filter: blur(0px);
   transition: all 1s;
 }
-
-.lines{
-  font-size: 40px;
-  margin-left: 140px;
-  font-family: Trebuchet MS;
-  filter: blur(8px;);
-  line-height: 212px;
-  margin-top: -1405px;
-  text-shadow: 3px 3px black;
-
-
-}
-.lines2{
-  font-size: 40px;
-  margin-left: 1040px;
-  font-family: Trebuchet MS;
-  line-height: 212px;
-  margin-top: -1275px;
-  text-shadow: 3px 3px black;
-
-}
 .top{
   margin-top: -230px;
   margin-left: 120px;
   position: fixed;
-}
-.border{
-  border: 2px dotted white;
-  color: white;
-  height: 32px;
-  width: 800px;
-  margin-top: -30px;
-  margin-left: -108px;
-  z-index: 1000;
-
 }
 .top3{
 opacity: 0.5;
@@ -81,10 +50,26 @@ margin-top: -90px;
 
 
 }
-.text12{
-  margin-left: 120px;
-  margin-top: -45px;
-  position: relative;
+.lines{
+  color: rgb(217, 232, 245);
+  font-size: 40px;
+  margin-left: 140px;
+  font-family: Trebuchet MS;
+  filter: blur(8px;);
+  line-height: 212px;
+  margin-top: -850px;
+  text-shadow: 3px 3px black;
+
+
+}
+.lines2{
+  font-size: 40px;
+  margin-left: 1040px;
+  font-family: Trebuchet MS;
+  line-height: 212px;
+  margin-top: -639px;
+  text-shadow: 3px 3px black;
+
 }
 a {
 color: rgb(48, 66, 105);
@@ -102,7 +87,6 @@ a:hover{ text-decoration:underline;}
 a:active{
   top:1px;
 }
-
 .head{
   position: fixed;
   top:10px;
@@ -122,7 +106,7 @@ a:active{
 .text2{font-family: cursive;}
 
 .title{
-margin-left: 42%;
+margin-left: 40%;
 margin-top: 15%;
 
 position: fixed;
@@ -274,7 +258,7 @@ text-align: left;
 background-color: white;
 z-index: 999;
 width: 600px;
-height: 50px;
+height: 90px;
 padding: 12px;
 pointer-events: visibleFill;
 mix-blend-mode: difference;
@@ -294,12 +278,11 @@ animation: roll 1s ;
 }
 
 .footnote2.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white;
   font-size: 20px;
   width: 600px;
-  height: 50px;
+  height: 60px;
   padding: 12px;
   margin-left: -140px;
   pointer-events: visibleFill;
@@ -309,6 +292,7 @@ z-index: 998;
     display: block;
     text-shadow: 1px 1px rgb(116, 139, 158);
 animation: roll 1s ;
+mix-blend-mode: difference;
 }
 .footnote3{
   text-align: center;
@@ -320,7 +304,6 @@ animation: roll 1s ;
 }
 
 .footnote3.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
@@ -335,10 +318,9 @@ animation: roll 1s ;
     color: rgb(217, 232, 245);
     display: block;
     text-shadow: 1px 1px rgb(116, 139, 158);
-
+mix-blend-mode: difference;
 }
 .footnote4{
-  mix-blend-mode: difference;
   text-align: center;
   position:fixed;
   top: 10%;
@@ -353,7 +335,7 @@ animation: roll 1s ;
   z-index: 997;
 
   width: 600px;
-  height: 80px;
+  height: 90px;
   padding: 12px;
   margin-left: -71px;
   pointer-events: visibleFill;
@@ -362,7 +344,7 @@ animation: roll 1s ;
     color: rgb(217, 232, 245);
     display: block;
     text-shadow: 1px 1px rgb(116, 139, 158);
-
+mix-blend-mode: difference;
 }
 .footnote5{
   text-align: center;
@@ -374,13 +356,12 @@ animation: roll 1s ;
 }
 
 .footnote5.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
 
   width: 600px;
-  height: 60px;
+  height: 90px;
   padding: 12px;
   margin-left: -94px;
   pointer-events: visibleFill;
@@ -389,7 +370,7 @@ animation: roll 1s ;
     color: rgb(217, 232, 245);
     display: block;
     text-shadow: 1px 1px rgb(116, 139, 158);
-
+mix-blend-mode: difference;
 
 }
 .footnote6{
@@ -402,13 +383,12 @@ animation: roll 1s ;
 }
 
 .footnote6.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
-
+mix-blend-mode: difference;
   width: 600px;
-  height: 80px;
+  height: 90px;
   padding: 12px;
   margin-left: -140px;
   pointer-events: visibleFill;
@@ -429,7 +409,6 @@ animation: roll 1s ;
 }
 
 .footnote7.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
@@ -456,7 +435,6 @@ animation: roll 1s ;
 }
 
 .footnote8.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
@@ -483,7 +461,6 @@ animation: roll 1s ;
 }
 
 .footnote9.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
@@ -501,7 +478,6 @@ animation: roll 1s ;
 
 }
 .footnote10{
-
   text-align: center;
   position:fixed;
   top: 10%;
@@ -511,7 +487,6 @@ animation: roll 1s ;
 }
 
 .footnote10.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
@@ -538,7 +513,6 @@ animation: roll 1s ;
 }
 
 .footnote11.showme{
-  mix-blend-mode: difference;
   text-align: left;
   background-color: white ;
   z-index: 997;
@@ -565,7 +539,6 @@ animation: roll 1s ;
 }
 
 .footnote12.showme{
-  mix-blend-mode: difference;
   text-align: left;
 
    animation: roll 1s ;
