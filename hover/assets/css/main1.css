@@ -1,3 +1,4 @@
+
 body {
   font-family: cursive;
   font-size: 20px;
@@ -7,6 +8,7 @@ color: rgb(217, 232, 245);
 background-image: url(../images/back4.png) ;
 background-size: 1250px 700px;
 }
+
 a {
 color: rgb(217, 232, 245);
 }
@@ -58,9 +60,9 @@ opacity: 0;
 }
 .page.showme{
   width: 480px;
-  margin-top: -670px;
+  margin-top: -659px;
   position: fixed;
-  margin-left: 14%;
+  margin-left: 14.5%;
   opacity: 0.9;
 
 }
@@ -101,7 +103,7 @@ text-align: justify;
     height: 260px;
     width: 390px;
     top: 5%;
-    left: 32.5%;
+    left: 32.8%;
     right: 30%;
 }
 .number{
@@ -171,7 +173,7 @@ hyphens: 200px;
   position:fixed;
   top: 10%;
   text-align: center;
-
+left: 40%;
   display: none;
 }
 
@@ -187,7 +189,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 36.5%;
+  left: 28.9%;
 
   display: none;
 }
@@ -204,7 +206,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 35%;
+  left: 36.8%;
 
   display: none;
 }
@@ -221,7 +223,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 31%;
+  left: 36%;
 
   display: none;
 }
@@ -238,7 +240,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 33%;
+  left: 36%;
 
   display: none;
 }
@@ -255,7 +257,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 36.5%;
+  left: 34%;
 
   display: none;
 }
@@ -272,7 +274,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 36.5%;
+  left: 32%;
 
   display: none;
 }
@@ -289,7 +291,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 32%;
+  left: 36%;
 
   display: none;
 }
@@ -306,7 +308,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 31.5%;
+  left: 38%;
 
   display: none;
 }
@@ -340,7 +342,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 34.5%;
+  left: 31%;
 
   display: none;
 }
@@ -357,7 +359,7 @@ text-align: center;
   text-align: center;
   position:fixed;
   top: 10%;
-  left: 32%;
+  left: 31%;
 
   display: none;
 }
