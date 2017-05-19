@@ -3,8 +3,9 @@ body {
   font-size: 20px;
 background-color: rgb(48, 66, 105);
 margin-left: 2.5%;
+
 color: rgb(217, 232, 245);
-background-image: url(../images/back11.jpg) ;
+background-image: url(../images/page20.jpg) ;
 background-size: 1300px 820px;
 background-attachment: fixed;
 }
@@ -72,7 +73,7 @@ margin-top: -90px;
 
 }
 a {
-color: rgb(48, 66, 105);
+color: rgb(217, 232, 245);
 position: relative;
 }
 a:visited {
