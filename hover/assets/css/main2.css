@@ -14,13 +14,11 @@ background-size: 500px 300px;
   height: 133px;
   margin-left: 22.6%;
   margin-top: 4%;
-  transform: rotatex(0deg);
+  transform: rotate(0deg);
   transition: all 2s;
-
 }
 .bar1:hover{
-  transform: rotatex(60deg);
-
+  transform: rotate(360deg);
   mix-blend-mode: color-dodge;
   position: absolute;
   height: 133px;
@@ -43,12 +41,12 @@ a{ text-decoration:none;}
 a:hover{ text-decoration:underline;}
 .block{
   border: 2px solid white;
-  padding-bottom: 50px;
-margin-left: -60px;
+  padding-bottom: 30px;
+margin-left: 50px;
   height: 10px;
 width: 1100px;
 bottom: 8px;
-  margin-top: -1510px;
+  margin-top: 300px;
   padding-top: 10px;
   text-align: center;
   font-family: Courier New;
@@ -63,12 +61,12 @@ transform: rotate(0deg);
   transition: all 2s;
   transform: rotate(20deg);
   border: 2px solid white;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 margin-left: 50px;
   height: 10px;
 width: 1100px;
 bottom: 8px;
-  margin-top: 463px;
+  margin-top: 300px;
   padding-top: 10px;
   text-align: center;
   font-family: Courier New;
@@ -133,7 +131,7 @@ mix-blend-mode:difference;
 
 .title{
 margin-left: 40%;
-margin-top: 19%;
+margin-top: 16%;
 font-family: Courier New;
 position: absolute;
 font-size: 10px;
@@ -182,88 +180,33 @@ opacity: 0;
 
 
 }
-.block2{
-
-  height: 1190px;
-  width: 75px;
-  background: rgb(217, 232, 245);
-  margin-top: 104px;
-  margin-left: -33px;
-}
-.block3{
-
-  height: 1890px;
-  width: 78px;
-  background: rgb(217, 232, 245);
-  margin-top: -1871px;
-  margin-left: 1163px;
-}
-
-.sop{
-
-  padding-bottom: 50px;
-margin-left: 90px;
-  height: 10px;
-width: 1000px;
-bottom: 8px;
-  margin-top: -360px;
-  padding-top: 60px;
-
-  text-align: center;
-  font-family: Courier New;
-  font-size: 40px;
-  letter-spacing: 30px;
-  background-color: rgba(217, 232, 245, 0.77);
-  color: white;
-transition: all 5s;
-transform: rotate(0deg);
-}
-.sop:hover{
-  transition: all 5s;
-
-  border: 2px solid white;
-
-  text-align: center;
-  font-family: Courier New;
-  font-size: 45px;
-  letter-spacing: 30px;
-
-  color: pink;
-
-}
 .lines{
   font-size: 27px;
-  color: white;
+  color: rgb(217, 232, 245);
   text-shadow: 1px 1px rgb(116, 139, 158);
   margin-left: 10px;
   font-family: Courier New;
   filter: blur(8px;);
   line-height: 212px;
-  margin-top: -1325px;
-  width: 1px;
-  display: inline-block;
+  margin-top: -1485px;
 
-
-;
 
 
 }
 .lines2{
   font-size: 27px;
-  margin-left: 1170px;
+  margin-left: 1160px;
   font-family: Courier New;
   line-height: 212px;
   margin-top: -1275px;
 text-shadow: 1px 1px rgb(116, 139, 158);
-color: white;
-
+color: rgb(217, 232, 245);
 }
 .container {
   font-family: Courier New;
 
 font-size: 16px;
 line-height: 20px;
-
 text-align: justify;
     background-color: rgb(145, 179, 157,0.5);
 
@@ -275,7 +218,7 @@ text-align: justify;
     position: absolute;
     height: 260px;
     width: 590px;
-    top: 14%;
+    top: 8%;
     left: 24%;
     right: 30%;
 }
