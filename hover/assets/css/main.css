@@ -8,6 +8,43 @@ background-image: url(../images/max2.png) ;
 background-size: 500px 300px;
 
 }
+.blink {
+    animation: blink .75s linear infinite;
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    color: #dd4814;
+}
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+
+  80% {
+      opacity: 1;
+  }
+
+  90.01% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+
+.text1{
+  color: white;
+  background-color: rgb(217, 232, 245);
+transform: rotate(0deg);
+}
+.text1:hover{
+  color:rgb(217, 232, 245);;
+  background-color: white;
+transform: ROTATE(65deg);
+}
 .bar1{
   mix-blend-mode: color-dodge;
   position: absolute;
@@ -33,12 +70,14 @@ z-index: 1500;
 a:visited {
 color: rgba(129, 156, 179);
 z-index: 1500;
+text-decoration: none;
 }
 a:hover {
 color: pink;
+text-decoration: none;
 }
 a{ text-decoration:none;}
-a:hover{ text-decoration:underline;}
+a:hover{ text-decoration: none;}
 .block{
   border: 2px solid white;
   padding-bottom: 50px;
@@ -168,9 +207,9 @@ text-shadow: ;
   padding-bottom: 50px;
 margin-left: 90px;
   height: 10px;
-width: 1000px;
+width: 1200px;
 bottom: 8px;
-  margin-top: -460px;
+  margin-top: 20px;
   padding-top: 60px;
 
   text-align: center;
@@ -186,7 +225,7 @@ transform: rotate(0deg);
   transition: all 5s;
 
   border: 2px solid white;
-
+background-color: rgba(217, 232, 245, 0.3);
   text-align: center;
   font-family: Courier New;
   font-size: 45px;
@@ -229,6 +268,46 @@ opacity: 0;
 
 
 }
+
+.info{
+  width: 180px;
+  margin-top: 100px;
+  margin-left: 500px;;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-left:20px;
+text-shadow: 1px 1px rgb(147, 166, 183);
+  font-family: Courier New;
+color: pink;
+  color: rgb(230, 255, 250,);
+background-color: white;
+  display: block;
+
+}
+.info:hover{
+  width: 180px;
+
+margin-left: 500px;
+
+  padding-bottom: 10px;
+  padding-top: 6px;
+padding-left:20px;
+
+  font-family: Courier New;
+color: pink;
+  color: rgb(230, 255, 250,);
+
+  display: block;
+}
+.info1{
+  width: 70px;
+  margin-left: 470px;
+  margin-top: -108px;
+}
+.info2{
+  margin-left: 126px;
+  margin-top: -308px;
+}
 .lines{
   font-size: 27px;
   color: white;
@@ -256,7 +335,7 @@ color: white;
 
 font-size: 16px;
 line-height: 20px;
-text-align: justify;
+text-align: left;
     background-color: rgb(145, 179, 157,0.5);
 
     padding: 20px;
@@ -271,67 +350,7 @@ text-align: justify;
     left: 24%;
     right: 30%;
 }
-.number{
-  margin-left: 150px;
-  width: 120px;
-  height: 120px;
-  padding:30px;
 
-hyphens: 200px;
-  color:#fff;
-}
-
-.number:hover{
-  width: 150px;
-  height: 150px;
-  margin-left: 150px;
-  padding: 10px;
-  border: 2px solid pink;
- display: inline-block;
-  background-color: #defff5;
-
-  color:#fff;
-}
-.number2{
-border: 2px solid white;
-
-
-  padding:2px;
-
-hyphens: 200px;
-
-}
-
-.number2:hover{
-
-
-  padding: 2px;
-  border: 2px solid pink;
- display: inline-block;
-  background-color: #defff5;
-
-
-}
-.number3{
-border: 2px solid white;
-
-
-  padding:2px;
-
-hyphens: 200px;
-
-}
-
-.number3:hover{
-
-
-  padding: 2px;
-  border: 2px solid pink;
- display: inline-block;
-  background-color: #defff5;
-
-
-}
 
 
 .footnote{
@@ -588,7 +607,6 @@ opacity: 0.5;
   width: 150px;
   transition: 2s;
   margin-left: 5%;
-  display: inline-table;
 
 
 }
@@ -597,6 +615,7 @@ opacity: 1;
   width: 150px;
   transition: 2s;
   margin-left: 5%;
+
 
 }
 .thumbnail2{

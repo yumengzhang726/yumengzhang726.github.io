@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 
 
+
   $('.number').mouseenter(function() {
      $('.footnote').addClass('showme');
    });
@@ -143,7 +144,7 @@ $('.number2').mouseenter(function() {
                 $('.thumbnail14').mouseleave(function() {
                   $('.footnote14').removeClass('showme');
                 });
-
+            
 
 
 

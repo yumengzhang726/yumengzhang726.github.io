@@ -40,7 +40,7 @@ a:hover {
 color: pink;
 }
 a{ text-decoration:none;}
-a:hover{ text-decoration:underline;}
+a:hover{ text-decoration:none;}
 .block{
   border: 2px solid white;
   padding-bottom: 50px;
@@ -48,7 +48,7 @@ margin-left: -60px;
   height: 10px;
 width: 1100px;
 bottom: 8px;
-  margin-top: -1510px;
+  margin-top: -1340px;
   padding-top: 10px;
   text-align: center;
   font-family: Courier New;
@@ -68,7 +68,7 @@ margin-left: 50px;
   height: 10px;
 width: 1100px;
 bottom: 8px;
-  margin-top: 463px;
+  margin-top: 10px;
   padding-top: 10px;
   text-align: center;
   font-family: Courier New;
@@ -187,7 +187,7 @@ opacity: 0;
   height: 1190px;
   width: 75px;
   background: rgb(217, 232, 245);
-  margin-top: 104px;
+  margin-top: 64px;
   margin-left: -33px;
 }
 .block3{
@@ -229,7 +229,44 @@ transform: rotate(0deg);
   letter-spacing: 30px;
 
   color: pink;
+background-color: rgba(217, 232, 245, 0.3);
+}
+.blink {
+    animation: blink .75s linear infinite;
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    color: #dd4814;
 
+}
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+
+  80% {
+      opacity: 1;
+  }
+
+  90.01% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+.text1{
+  color: white;
+  background-color: rgb(217, 232, 245);
+transform: rotate(0deg);
+z-index: 1000;
+}
+.text1:hover{
+  color:rgb(217, 232, 245);;
+  background-color: white;
+transform: ROTATE(65deg);
 }
 .lines{
   font-size: 27px;
@@ -239,7 +276,7 @@ transform: rotate(0deg);
   font-family: Courier New;
   filter: blur(8px;);
   line-height: 212px;
-  margin-top: -1325px;
+  margin-top: -1425px;
   width: 1px;
   display: inline-block;
 
@@ -258,13 +295,52 @@ text-shadow: 1px 1px rgb(116, 139, 158);
 color: white;
 
 }
+.info{
+  width: 180px;
+  margin-top: 200px;
+  margin-left: 500px;;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-left:20px;
+text-shadow: 1px 1px rgb(147, 166, 183);
+  font-family: Courier New;
+color: pink;
+  color: rgb(230, 255, 250,);
+background-color: white;
+  display: block;
+
+}
+.info:hover{
+  width: 180px;
+
+margin-left: 500px;
+
+  padding-bottom: 8px;
+  padding-top: 4px;
+padding-left:20px;
+
+  font-family: Courier New;
+color: pink;
+  color: rgb(230, 255, 250,);
+
+  display: block;
+}
+.info1{
+  width: 70px;
+  margin-left: 470px;
+  margin-top: -108px;
+}
+.info2{
+  margin-left: 126px;
+  margin-top: -308px;
+}
 .container {
   font-family: Courier New;
 
 font-size: 16px;
 line-height: 20px;
 
-text-align: justify;
+text-align: left;
     background-color: rgb(145, 179, 157,0.5);
 
     padding: 20px;
@@ -346,7 +422,7 @@ hyphens: 200px;
   position:fixed;
   top: 50%;
   text-align: center;
-left:34%;
+left:26.5%;
   display: none;
 }
 
@@ -362,7 +438,7 @@ background-color: rgba(255, 255, 255, 0.78);
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 34%;
+  left: 26%;
 
   display: none;
 }
@@ -379,7 +455,7 @@ background-color: rgba(255, 255, 255, 0.78);;
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 33%;
+  left: 31%;
 
   display: none;
 }
@@ -413,7 +489,7 @@ background-color: rgba(255, 255, 255, 0.78);;
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 35%;
+  left: 30%;
 
   display: none;
 }
@@ -430,14 +506,14 @@ background-color: rgba(255, 255, 255, 0.78);;
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 30%;
+  left: 16%;
 
   display: none;
 }
 
 .footnote6.showme{
 text-align: center;
-  font-size: 70px;
+  font-size: 33px;
   color: rgb(217, 232, 245);
   display: block;
   text-shadow: 2px 2px rgb(116, 139, 158);
@@ -447,7 +523,7 @@ background-color: rgba(255, 255, 255, 0.78);
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 30%;
+  left: 29%;
 
   display: none;
 }
@@ -464,7 +540,7 @@ background-color: rgba(255, 255, 255, 0.78);;
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 37%;
+  left: 23%;
 
   display: none;
 }
@@ -481,7 +557,7 @@ background-color: rgba(255, 255, 255, 0.78);;
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 34%;
+  left: 30%;
 
   display: none;
 }
@@ -498,14 +574,14 @@ background-color: rgba(255, 255, 255, 0.78);;
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 31%;
+  left: 22%;
 
   display: none;
 }
 
 .footnote10.showme{
 text-align: center;
-  font-size: 70px;
+  font-size: 29px;
   color: rgb(217, 232, 245);
   display: block;
   text-shadow: 2px 2px rgb(116, 139, 158);
@@ -516,7 +592,7 @@ background-color: rgba(255, 255, 255, 0.78);;
   text-align: center;
   position:fixed;
   top: 50%;
-  left: 31%;
+  left: 20%;
 
   display: none;
 }
