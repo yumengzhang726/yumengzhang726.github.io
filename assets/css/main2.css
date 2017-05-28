@@ -115,9 +115,9 @@ mix-blend-mode:difference;
   margin-top: -20px;
   margin-left: 17.5%;
   letter-spacing: 4px;
-  background-color: rgb(44, 92, 134);
+  background-color: rgb(217, 232, 245);
   padding-left: 2px;
-border: 3px dotted white;
+
 }
 
 .home1{
@@ -128,9 +128,9 @@ border: 3px dotted white;
   margin-top: -20px;
   margin-left: 71%;
   letter-spacing: 4px;
-  background-color: rgb(44, 92, 134);
+  background-color: rgb(217, 232, 245);
 padding-left: 2px;
-border: 3px dotted white;
+
 }
 
 .text2{font-family: cursive;}
