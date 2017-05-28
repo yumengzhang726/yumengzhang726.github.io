@@ -1,0 +1,296 @@
+body {
+  font-family: cursive;
+  font-size: 20px;
+background-color: white;
+margin-left: 2.5%;
+color: black;
+;
+background-size: 500px 300px;
+cursor: url(../images/max2.png);
+}
+
+.but{
+  width: 120px;
+  filter: grayscale(100%);
+  margin-left: 10%;
+  margin-top: 445px;
+  position: absolute;
+  display: block;
+}
+.but:hover{
+  width: 120px;
+  filter: grayscale(0%);
+position: absolute;
+
+}
+.but2{
+  width: 120px;
+  filter: grayscale(100%);
+  margin-left: 43%;
+margin-top: 105px;
+display: block;
+  position: absolute;
+}
+.but2:hover{
+  width: 120px;
+  filter: grayscale(0%);
+position: absolute;
+
+}
+.but3{
+  width: 120px;
+  filter: grayscale(100%);
+  margin-left: 75%;
+margin-top:-231px;
+  position: absolute;
+}
+.but3:hover{
+  width: 120px;
+  filter: grayscale(0%);
+position: absolute;
+
+}
+.Sophie{
+  position: fixed;
+  font-size: 20px;
+  font-family: Courier New;
+color: #d4d4d4;
+margin-top: 44%;
+margin-left: 8.5%;
+position: absolute;
+}
+.Sophie:hover{
+  position: fixed;
+  font-size: 20px;
+  font-family: Courier New;
+color: rgb(217, 232, 245);
+margin-top: 44%;
+margin-left: 8.5%;
+position: absolute;
+}
+.la{
+  position: fixed;
+  font-size: 20px;
+  font-family: Courier New;
+color: #d4d4d4;
+margin-top: 44%;
+margin-left: 40.5%;
+position: absolute;
+}
+.la:hover{
+  position: fixed;
+  font-size: 20px;
+  font-family: Courier New;
+color: rgb(217, 232, 245);
+margin-top: 44%;
+margin-left: 40.5%;
+position: absolute;
+}
+.gor{
+  position: fixed;
+  font-size: 20px;
+  font-family: Courier New;
+color: #d4d4d4;
+margin-top: 44%;
+margin-left: 71%;
+position: absolute;
+}
+.gor:hover{
+  position: fixed;
+  font-size: 20px;
+  font-family: Courier New;
+color: rgb(217, 232, 245);
+margin-top: 44%;
+
+position: absolute;
+}
+
+.but1{
+  position: absolute;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 5%;
+  opacity: 0;
+  transition: all 1s;
+}
+.but1.showme{
+  position: absolute;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 5%;
+  opacity: 1;
+}
+.but4{
+  position: absolute;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 5%;
+  opacity: 0;
+  transition: all 1s;
+}
+.but4.showme{
+  position: absolute;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 5%;
+  opacity: 1;
+}
+.but5{
+  position: absolute;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 5%;
+  opacity: 0;
+  transition: all 1s;
+}
+.but5.showme{
+  position: absolute;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 5%;
+  opacity: 1;
+}
+.title{
+  position: absolute;
+  font-size: 60px;
+  margin-left: 23%;
+  font-family: Courier New;
+  margin-top: 14%;
+  color: rgb(217, 232, 245);
+  text-shadow: 2px 2px #4a7190;
+}
+.titb{
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 15%;
+
+}
+.titb1{
+  position: absolute;
+  margin-top: 23.5%;
+  margin-left: 75%;
+}
+.titb2{
+  position: absolute;
+  margin-top: 23.5%;
+  margin-left: 15%;
+
+}
+.titb3{
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 75%;
+}
+.intro:hover{
+  display: block;
+  width: 250px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 5%;
+  font-family: Lucida Sans Unicode;
+  padding: 13px;
+  color: white;
+  background: grey;
+
+}
+.intro{
+  display: block;
+  width: 250px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 5%;
+  font-family: Lucida Sans Unicode;
+  padding: 13px;
+  color: #737373;
+
+}
+.intro:hover{
+  display: block;
+  width: 250px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 5%;
+  font-family: Lucida Sans Unicode;
+  padding: 13px;
+  color: white;
+  background: grey;
+
+}
+
+.x{
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 29%;
+  width: 40px;
+
+
+
+
+
+
+
+}
+.x1{
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 62%;
+  width: 40px;
+
+
+
+
+
+
+}
+.intro2{
+  display: block;
+  width: 270px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 37%;
+  font-family: Lucida Sans Unicode;
+  padding: 13px;
+  color: #737373;
+background-color: white;}
+.intro2:hover{
+  display: block;
+  width: 270px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 37%;
+  font-family: Lucida Sans Unicode;
+  padding: 13px;
+  color: white;
+background-color: grey;}
+
+
+
+  .intro3{
+    display: block;
+    width: 230px;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 70%;
+    font-family: Lucida Sans Unicode;
+    padding: 13px;
+    color: #737373;}
+
+
+
+    .intro3:hover{
+      display: block;
+      width: 230px;
+      font-size: 14px;
+      position: absolute;
+      margin-top: -350px;
+      margin-left: 70%;
+      font-family: Lucida Sans Unicode;
+      padding: 13px;
+      color: white;
+      background-color: grey;
