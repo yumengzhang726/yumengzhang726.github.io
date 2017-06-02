@@ -48,7 +48,7 @@ margin-left: -60px;
   height: 10px;
 width: 1100px;
 bottom: 8px;
-  margin-top: -1340px;
+  margin-top: -1220px;
   padding-top: 10px;
   text-align: center;
   font-family: Courier New;
@@ -188,9 +188,10 @@ opacity: 0;
   height: 1190px;
   width: 75px;
   background: rgb(217, 232, 245);
-  margin-top: 64px;
+  margin-top: 59px;
   margin-left: -33px;
 }
+
 .block3{
 
   height: 1890px;
@@ -278,7 +279,8 @@ transform: ROTATE(65deg);
   font-family: Courier New;
   filter: blur(8px;);
   line-height: 212px;
-  margin-top: -1425px;
+  margin-top: -1325px;
+  position: absolute;
   width: 1px;
   display: inline-block;
 
@@ -292,9 +294,10 @@ transform: ROTATE(65deg);
   margin-left: 1170px;
   font-family: Courier New;
   line-height: 212px;
-  margin-top: -1275px;
+  margin-top: -1115px;
 text-shadow: 1px 1px rgb(116, 139, 158);
 color: white;
+position: absolute;
 
 }
 .info{
